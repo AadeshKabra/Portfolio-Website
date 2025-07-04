@@ -51,7 +51,7 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #1B3C53;
   font-weight: bold;
 }
 
@@ -61,12 +61,17 @@
     justify-content: center;
     align-items: center;
 }
+.experience:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
 
 .heading {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #1B3C53;
   font-weight: bold;
 }
 
@@ -82,7 +87,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #f9f9f9;
+  background-color: #fbfaf9;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -100,7 +105,7 @@
 .experience h2 {
   margin: 0;
   font-size: 1.25rem;
-  color: #2c3e50;
+  color: #1B3C53;
 }
 
 .experience h3 {

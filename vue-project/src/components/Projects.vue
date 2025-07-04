@@ -198,7 +198,7 @@
   text-align: center;
   font-size: 2rem;
   /* margin-bottom: 2rem; */
-  color: #2c3e50;
+  color: #1B3C53;
   font-weight: bold;
 }
 
@@ -216,7 +216,7 @@
   padding: 2em;
   border-radius: 10px;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #fbfaf9;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   max-width: 1000px;
 }
@@ -233,6 +233,10 @@
 .project-image {
   height: 250px;
   width: 250px;
+}
+
+h2{
+  color: #1B3C53;
 }
 
 .projects-list {
@@ -255,8 +259,8 @@
 }
 
 .stack-component {
-  background-color: #4a90e2;
-  color: white;
+  background-color: #1B3C53;
+  color: #fbfaf9;
   padding: 6px 8px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -268,6 +272,7 @@
 
 .project-description p {
   text-align: justify;
+
 }
 
 .project-description li{

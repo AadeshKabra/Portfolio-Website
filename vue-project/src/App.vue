@@ -60,7 +60,7 @@ function experience(){
 <style scoped>
 .navbar {
   width: 100%; /* full width */
-  background-color: #ffffff;
+  background-color: #fbfaf9;
   padding: 1rem 0;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   position: sticky;
@@ -93,8 +93,8 @@ li {
 .navbar-section {
   font-size: 1rem;
   font-weight: 500;
-  color: #2c3e50;
-  background-color: #e6f0ff;
+  color: #1B3C53;
+  background-color: #D2C1B6;
   padding: 8px 16px;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
@@ -102,8 +102,8 @@ li {
 }
 
 .navbar-section:hover {
-  background-color: #4a90e2;
-  color: white;
+  background-color: #456882;
+  color: #fbfaf9;
   cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);

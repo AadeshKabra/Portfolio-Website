@@ -35,8 +35,8 @@
 
       <div>
         <p class="pub-info-line">
-          <span><b>Publisher:</b> IEEE</span>
-          <span><b>Published in:</b>2023 IEEE 8th International Conference for Convergence in Technology (I2CT)</span>
+          <span><b class="publisher">Publisher:</b> IEEE</span>
+          <span><b class="published">Published in:</b>2023 IEEE 8th International Conference for Convergence in Technology (I2CT)</span>
         </p>
         <p><b>Date of Conference: </b>07-09 April 2023</p>
         <p><b>DOI: </b>10.1109/I2CT57861.2023.10126463</p>
@@ -72,8 +72,8 @@
       </p>
       <div>
         <p class="pub-info-line">
-          <span><b>Publisher:</b> IEEE</span>
-          <span><b>Published in:</b> 2024 1st International Conference on Cognitive, Green and
+          <span><b class="publisher">Publisher:</b> IEEE</span>
+          <span><b class="published">Published in:</b> 2024 1st International Conference on Cognitive, Green and
             Ubiquitous Computing (IC-CGU)</span>
         </p>
         <p><b>Date of Conference: </b>01-02 March 2024</p>
@@ -103,8 +103,8 @@
       </p>
       <div>
         <p class="pub-info-line">
-          <span><b>Publisher:</b> ITM Web of Conferences</span>
-          <span><b>Published in:</b>ICAECT 2022</span>
+          <span><b class="publisher">Publisher:</b> ITM Web of Conferences</span>
+          <span><b class="published">Published in:</b>ICAECT 2022</span>
         </p>
         <p><b>Date of Conference: </b>December 2022</p>
         <p><b>DOI: </b>10.1051/itmconf/20225001007</p>
@@ -121,7 +121,7 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #1B3C53;
   font-weight: bold;
 }
 
@@ -136,7 +136,7 @@
 .publication {
   width: 100%;
   max-width: 800px;
-  background-color: #ffffff;
+  background-color: #fbfaf9;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   padding: 2rem;
@@ -170,17 +170,18 @@
 }
 
 .abstract b {
-  color: #2c3e50;
+  color: #1B3C53;
 }
 
 .publication div p {
   font-size: 0.9rem;
   margin: 0.3rem 0;
-  color: #333;
+  color: black;
 }
 
-.publication div p b {
-  color: #000;
+
+.publication b {
+  color: #1B3C53;
 }
 
 .pub-info-line {
@@ -188,7 +189,7 @@
   gap: 2rem; /* Adjust spacing between the two spans */
   flex-wrap: wrap; /* Allow wrapping on small screens */
   font-size: 0.9rem;
-  color: #333;
+  color: black;
   margin-bottom: 0.8rem;
 }
 
