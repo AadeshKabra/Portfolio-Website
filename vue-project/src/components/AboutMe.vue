@@ -3,8 +3,8 @@
       <h1 class="heading">About Me</h1>
       <div class="profile-container">
         <div class="text-container">
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          <p class="profile-text">
+            I am a Software Engineer with a passion for solving real-life problems and developing innovative solutions. I have a strong foundation in Python, C++ and web development technologies, with deep interest in Natural Language and Data Science. I have worked on various projects that involve building scalable applications, data analysis and machine learning. Lately, I have been exploring the field of LLMs and their applications using Natural Language and AI. I am always eager to learn new technologies and improve my skills. I have completed my Bachelor's in Artificial Intelligence and Data Science with 9.33 CGPA. I have 1 year of work experience as Software Engineer at Infineon Technologies apart from an 11-month Internship. Always eager to learn and grow, I enjoy exploring new technologies and expanding my skill set. In my free time, I like to read books, explore new places and go on adventures.
           </p>
           <div class="profile-icons">
             <img src="../assets/github.png" class="profile-icon" alt="GitHub" onclick="window.open(`https://github.com/AadeshKabra`, '_blank')">
@@ -17,7 +17,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="tech-skills-section">
         <h1 class="heading">Tech Skills</h1>
         <div class="tech-row">
             <div class="tech-skill">
@@ -95,6 +95,11 @@
 
   section{
     margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .tech-skills-section{
+    margin-top: 75px;
   }
   
   .profile-container {
@@ -102,8 +107,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     padding: 1rem;
+  }
+
+  .profile-text{
+    text-align: justify;
   }
   
   .text-container {

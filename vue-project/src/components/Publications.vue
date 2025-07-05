@@ -104,7 +104,7 @@
       <div>
         <p class="pub-info-line">
           <span><b class="publisher">Publisher:</b> ITM Web of Conferences</span>
-          <span><b class="published">Published in:</b>ICAECT 2022</span>
+          <span><b class="published">Published in:</b> ICAECT 2022</span>
         </p>
         <p><b>Date of Conference: </b>December 2022</p>
         <p><b>DOI: </b>10.1051/itmconf/20225001007</p>
@@ -159,7 +159,7 @@
 
 .abstract {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -176,7 +176,7 @@
 .publication div p {
   font-size: 0.9rem;
   margin: 0.3rem 0;
-  color: black;
+  color: #555;
 }
 
 
@@ -189,7 +189,7 @@
   gap: 2rem; /* Adjust spacing between the two spans */
   flex-wrap: wrap; /* Allow wrapping on small screens */
   font-size: 0.9rem;
-  color: black;
+  color: #555;
   margin-bottom: 0.8rem;
 }
 
