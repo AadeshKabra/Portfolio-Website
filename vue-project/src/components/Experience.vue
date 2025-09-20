@@ -14,7 +14,11 @@
                 <p>06/2024 - 06/2025</p>
             </div>
             <div>
-                Worked as Consulting Software Engineer at Infineon Technologies, with Parent company Brisa Technologies being the parent company. Developing a Retrieval Augmented Generation (RAG) based chatbot ‘Genie’ to solve EDA license related queries for the Global License management team to decrease the overall resolution time by 15%. Used frameworks like FastAPI, VueJS and Langchain and RDDL for storage to make the system scalable. Developed complete retrieval pipeline using NLTK, spacy’s custom NER model. Integrating ‘GPT-4’ and ‘Mistral-8x-7b’ LLMs to provide answers to user queries.
+              <ul>
+                <li>Worked as Consulting Software Engineer at Infineon Technologies, with Parent company Brisa Technologies being the parent company.</li>
+                <li>Developed a Retrieval Augmented Generation (RAG) based chatbot ‘Genie’ to solve EDA license related queries for the GLM team to reduce the overall <b>resolution time by 30%</b> and deployed it on Red Hat Openshift using Docker.</li>
+                <li>Created complete retrieval pipeline using NLTK, Spacy’s custom NER model and Langchain integrated with FastAPI, VueJS and a Data Lake to make the system scalable and efficient, with a <b>query response time of 20 seconds</b>.</li>
+              </ul>
             </div>
         </div>
     </div>
@@ -31,9 +35,12 @@
                 <p>07/2023 - 05/2024</p>
             </div>
             <div>
-                Analyzed Big Data about Electronic Design and Automation (EDA) job runs project to improve the efficiency of the jobs.
-                Queried Hadoop database using Hive and Impala query engines to extract useful insights about the ideal parameters for the EDA jobs; Improved efficiency of Xcelium EDA jobs by 25% approximately on compute farm.
-                Performed analysis based on duration of job, features executed by job, parallel jobs on host machines and minute-level and seconds-level breakdown of job runs.Built useful Tableau dashboards on the insights for data visualization. 
+              <ul>
+                <li>Queried Hadoop databases using SQL, Impala and Python to extract insights on ideal parameters for EDA jobs, resulting in approximately <b>20% improvement in Xcelium EDA job efficiency</b> on the compute farm.</li>
+                <li><b>Helped in redesigning the Hadoop database</b> and DataLake of EDA jobs by identifying bottlenecks through analysis.</li>
+                <li>Streamlined <b>ETL pipeline for data analysis</b> and built Tableau dashboards for job run analysis. Performed multiple types of analysis like Parallel Job analysis, Minute-level Analysis and various Tool/Feature level analysis</li>
+              </ul>
+                 
             </div>
         </div>
     </div>

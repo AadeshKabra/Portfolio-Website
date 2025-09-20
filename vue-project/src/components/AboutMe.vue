@@ -4,16 +4,33 @@
       <div class="profile-container">
         <div class="text-container">
           <p class="profile-text">
-            I am a Software Engineer with a passion for solving real-life problems and developing innovative solutions. I have a strong foundation in Python, C++ and web development technologies, with deep interest in Natural Language and Data Science. I have worked on various projects that involve building scalable applications, data analysis and machine learning. Lately, I have been exploring the field of LLMs and their applications using Natural Language and AI. I am always eager to learn new technologies and improve my skills. I have completed my Bachelor's in Artificial Intelligence and Data Science with 9.33 CGPA. I have 1 year of work experience as Software Engineer at Infineon Technologies apart from an 11-month Internship. Always eager to learn and grow, I enjoy exploring new technologies and expanding my skill set. In my free time, I like to read books, explore new places and go on adventures.
+            I am an MSCS student at UMD-College Park, with a passion for solving real-life problems and developing innovative solutions. I have a strong foundation in Python, C++ and web development technologies, with deep interest in Natural Language and Data Science. I have worked on various projects that involve building scalable applications, data analysis and machine learning. Lately, I have been exploring the field of LLMs and their applications using Natural Language and AI. I am always eager to learn new technologies and improve my skills. I have completed my Bachelor's in Artificial Intelligence and Data Science with 9.33 CGPA. I have 1 year of work experience as Consulting Software Engineer at Infineon Technologies apart from an 11-month Internship at the same company. Always eager to learn and grow, I enjoy exploring new technologies and expanding my skill set. In my free time, I like to read books, explore new places and go on adventures.
           </p>
           <div class="profile-icons">
             <img src="../assets/github.png" class="profile-icon" alt="GitHub" onclick="window.open(`https://github.com/AadeshKabra`, '_blank')">
             <img src="../assets/linkedin.png" class="profile-icon" alt="LinkedIn" onclick="window.open(`https://www.linkedin.com/in/aadesh-kabra-06a050207/`, '_blank')">
+            <!-- <button @click="download" >Resume</button> -->
+             <!-- <a :href="pdfFile" download="Resume - Aadesh Kabra.pdf">
+              <button>Resume</button>
+             </a> -->
+             <button @click="downloadPDF" class="resume-button">Resume</button>
           </div>
         </div>
         <div class="image-container">
           <img src="../assets/linkedin2.png" alt="Profile Picture" class="profile-image" />
         </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="heading">News</h1>
+      <div class="news-container">
+        <ul>
+          <li class="news-item"><b>08-2025</b>:  Started Master's in Computer Science at University of Maryland - College Park.</li>
+          <li class="news-item"><b>06-2025</b>:  Finished my tenure at Infineon Technologies.</li>
+          <li class="news-item"><b>06-2024</b>:  Joined Infineon Technologies as Consulting Software Engineer.</li>
+          <li class="news-item"><b>05-2024</b>:  Completed Bachelor's in Artificial Intelligence and Data Science at Vishwakarma Institute of Technology</li>
+        </ul>
       </div>
     </section>
 
@@ -83,6 +100,12 @@
   </template>
   
   <script setup>
+    function downloadPDF() {
+      const link = document.createElement("a");
+      link.href = "/Resume - Aadesh Kabra.pdf"; // from public folder
+      link.download = "Resume - Aadesh Kabra.pdf"; 
+      link.click();
+    }
   </script>
   
   <style scoped>
@@ -96,10 +119,6 @@
   section{
     margin-top: 3em;
     margin-bottom: 3em;
-  }
-
-  .tech-skills-section{
-    margin-top: 75px;
   }
   
   .profile-container {
@@ -161,6 +180,19 @@
     object-position: center top;
   }
 
+  .news-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .news-item{
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    color: #1B3C53;
+  }
+
   .tech-row{
     display: flex;
     flex-direction: row;
@@ -192,5 +224,27 @@
   .tech-text{
     text-align: center;
   }
+
+  .resume-button {
+  font-size: 1rem;
+  color: #1B3C53;
+  background-color: #D2C1B6;
+  border-radius: 8px;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100px;
+  border: none;
+}
+.resume-button:hover {
+  background-color: #456882;
+  color: #fbfaf9;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
   </style>
   
